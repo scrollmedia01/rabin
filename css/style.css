@@ -7480,17 +7480,32 @@ button.bg-dark:focus {
     text-align: center;
     width: 180px;
 }
-
-#clock {
-    font-size: 28px;
-    font-weight: bold;
-    color: #ffffff;
-}
 #flag {
     font-size: 28px;
     font-weight: bold;
     color: #ffffff;
 }
+#flag-icon{
+     width: 170px; /* Icon size */
+    height: 150px;
+    margin-bottom: 20px;
+}
+ @media screen and (max-width: 600px) {
+            #flag-icon {
+                width: 40px; /* Smaller size for small screens */
+            }
+
+            #flag {
+                width: 40px; /* Adjust flag size for small screens */
+                height: 40px;
+            }
+        }
+#clock {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
 #date {
     font-size: 20px;
     margin-top: 5px;
@@ -7502,11 +7517,8 @@ button.bg-dark:focus {
     height: 50px;
     margin-bottom: 20px;
 }
-#flag-icon{
-     width: 170px; /* Icon size */
-    height: 150px;
-    margin-bottom: 20px;
-}
+
+       
 #weather {
     margin-top: 10px;
     display: flex;
