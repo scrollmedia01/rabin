@@ -7461,6 +7461,68 @@ button.bg-dark:focus {
   z-index: 1030;
 }
 
+
+#clock-container {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    background: rgba(255, 255, 255, 0.1);
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 180px;
+}
+#flag-container {
+    position: absolute;
+    top: 20px;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width: 180px;
+}
+
+#clock {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+}
+#flag {
+    font-size: 28px;
+    font-weight: bold;
+    color: #ffffff;
+}
+#date {
+    font-size: 20px;
+    margin-top: 5px;
+    color: #ffff;
+}
+
+#time-icon {
+    width: 50px; /* Icon size */
+    height: 50px;
+    margin-bottom: 20px;
+}
+#flag-icon{
+     width: 170px; /* Icon size */
+    height: 150px;
+    margin-bottom: 20px;
+}
+#weather {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#weather-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 5px;
+}
+
+#temperature {
+    font-size: 18px;
+}
 .fixed-bottom {
   position: fixed;
   right: 0;
