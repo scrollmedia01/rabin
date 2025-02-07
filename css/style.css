@@ -7464,13 +7464,13 @@ button.bg-dark:focus {
 
 #clock-container {
     position: absolute;
-    top: 20px;
-    right: 20px;
+    top: 4px;
+    right: 5px;
     background: rgba(255, 255, 255, 0.1);
-    padding: 15px;
+    padding: 0px;
     border-radius: 10px;
     text-align: center;
-    width: 180px;
+    width: 129px;
 }
 #flag-container {
     position: absolute;
@@ -7486,20 +7486,12 @@ button.bg-dark:focus {
     color: #ffffff;
 }
 #flag-icon{
-     width: 170px; /* Icon size */
-    height: 150px;
-    margin-bottom: 20px;
+    width: 136px;
+    height: 128px;
+    margin-top: -35px;
+    margin-left: -44px;
 }
- @media screen and (max-width: 600px) {
-            #flag-icon {
-                width: 40px; /* Smaller size for small screens */
-            }
 
-            #flag {
-                width: 40px; /* Adjust flag size for small screens */
-                height: 40px;
-            }
-        }
 #clock {
     font-size: 28px;
     font-weight: bold;
