@@ -39,7 +39,30 @@
             loop: true
         });
     }
+function updateClock() {
+    const now = new Date();
+    const hours = now.getHours();
 
+    let timeIconSrc = '';
+
+    // Determine the time of day
+    if (hours >= 5 && hours < 12) {
+        timeIconSrc = 'morning-icon.png';  // Replace with your actual morning icon image file
+    } else if (hours >= 12 && hours < 17) {
+        timeIconSrc = 'afternoon-icon.png';  // Replace with your afternoon icon image file
+    } else {
+        timeIconSrc = 'night-icon.png';  // Replace with your night icon image file
+    }
+
+    // Update the clock and time icon
+    document.getElementById('clock').textContent = now.toLocaleTimeString();
+    document.getElementById('date').textContent = now.toLocaleDateString();
+    document.getElementById('time-icon').src = timeIconSrc;  // Update time icon src
+}
+
+// Update the clock every second
+setInterval(updateClock, 1000);
+updateClock();  // Initialize immediately
 
     // Modal Video
     $(document).ready(function () {
