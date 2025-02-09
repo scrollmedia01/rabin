@@ -7482,9 +7482,10 @@ button.bg-dark:focus {
 }
 
 #clock {
-    font-size: 28px;
+    font-size: 22px;
     font-weight: bold;
     color: #ffffff;
+	margin-top: -78px;
 }
 #flag {
     font-size: 28px;
@@ -7492,18 +7493,19 @@ button.bg-dark:focus {
     color: #ffffff;
 }
 #date {
-    font-size: 20px;
-    margin-top: 5px;
+    font-size: 18px;
+    margin-top: -3px;
     color: #ffff;
 }
 
 #time-icon {
     width: 50px; /* Icon size */
     height: 50px;
-    margin-bottom: 20px;
+    margin-bottom: 32px;
+	margin-left: -149px;
 }
 #flag-icon{
-     width: 170px; /* Icon size */
+     width: 115px; /* Icon size */
      /* height: 150px; */
      /* margin-bottom: 21px; */
 }
