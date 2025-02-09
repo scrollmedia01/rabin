@@ -10044,3 +10044,14 @@ h6,
   padding: 0;
   list-style-type: none;
 }
+
+/* Responsive styles for mobile screens */
+@media (max-width: 768px) {
+  .clock-icon {
+    width: 100px; /* Smaller logo for mobile */
+  }
+
+  .time-icon {
+    font-size: 14px; /* Smaller text for mobile */
+  }
+}
